@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(35deg,#FA7283,#AD3729);
+}
+.centralise{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.line{
+    position: sticky;
+    display: inline-flex;
+    height: 60px;
+    border-radius: 10px;
+    width: 10px;
+    background: white;
+}
+#l1{
+    animation: anim 2s linear infinite;
+    animation-delay: 0s;
+}
+#l2{
+    animation: anim 2s linear infinite;
+    animation-delay: 0.12s;
+}
+#l3{
+    animation: anim 2s linear infinite;
+    animation-delay: 0.24s;
+}
+#l4{
+    animation: anim 2s linear infinite;
+    animation-delay: 0.36s;
+}
+#l5{
+    animation: anim 2s linear infinite;
+    animation-delay: 0.48s;
+}
+#l6{
+    animation: anim 2s linear infinite;
+    animation-delay: 0.60s;
+}
+#l7{
+    animation: anim 2s linear infinite;
+    animation-delay: 0.72s;
+}
+#l8{
+    animation: anim 2s linear infinite;
+    animation-delay: 0.84s;
+}
+#l9{
+    animation: anim 2s linear infinite;
+    animation-delay: 0.96s;
+}
+#l10{
+    animation: anim 2s linear infinite;
+    animation-delay: 1.08s;
+}
+@keyframes anim{
+    25%{
+        transform: scale(0,2);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
