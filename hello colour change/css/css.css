@@ -1,0 +1,46 @@
+@import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=B612');
+*{
+	transition: 1s;
+}
+.back{
+	height: 730px;
+	width: 100%;
+}
+#main_element{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: black;
+	font-size: 100px;
+	cursor: pointer;
+	z-index: 10;
+}
+.foot{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 50px;
+	cursor: pointer;
+}
+.foot:hover{
+	color: white;
+	text-shadow: 2px 2px 10px #000;
+}
+#help{
+	position: absolute;
+	height: auto;
+	width: 500px;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+	font-family: 'B612', sans-serif;
+	background: #f9f9f9;
+	box-shadow: 1px 1px 20px 0px #000;
+	border-radius: 20px;
+	top: 50%;
+	left: 50%;
+}
+button{
+	cursor: pointer;
+}
