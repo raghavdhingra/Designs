@@ -1,0 +1,58 @@
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+body::-webkit-scrollbar{
+    background: white;
+    color:black;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom right , #acd281, #627178)
+}
+body::-webkit-scrollbar-button{
+    background: #276399;
+}
+.menu{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    cursor: pointer;
+    font-size: 30px;
+    letter-spacing: -2px;
+    color: white;
+}
+.menu_icon{
+    position: relative;
+    top: 0px;
+    display: inline-flex;
+    text-align: center;
+}
+.menu:hover .curve_anim{
+    animation: big 0.5s linear forwards;
+}
+.menu:hover .curve_anim1{
+    animation: up 0.5s linear forwards;
+    animation-delay: 0.1s;
+}
+.menu:hover .curve_anim2{
+    animation: up 0.5s linear forwards;
+    animation-delay: 0.2s;
+}
+.menu:hover .curve_anim3{
+    animation: up 0.5s linear forwards;
+    animation-delay: 0.3s;
+}
+.menu:hover .curve_anim4{
+    animation: up 0.5s linear forwards;
+    animation-delay: 0.4s;
+}
+@keyframes up{
+    0%{top: 0;}
+    50%{top:-10px;}
+    100%{top:0;}
+
+}
+@keyframes big{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.3);}
+    100%{transform: scale(1);}
+}
