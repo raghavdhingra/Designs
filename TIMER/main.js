@@ -26,3 +26,8 @@ const move = () => {
             }
         }
     }
+const reset_btn = () => {
+    counter=0;
+    document.getElementById('count_1').innerText=counter;
+    document.getElementById('reset_btn').disabled=true;
+}
