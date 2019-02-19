@@ -1,0 +1,51 @@
+body{
+	background: #00ffff;
+}
+#torch_body{
+	position: absolute;
+	top: 300px;
+	left: 10px;
+	height: 5.0em;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;	
+	width: 300px;
+	background: linear-gradient(to bottom, #c0c0c0,#a9a9a9,#a9a9a9,#555);
+
+}
+.torch_upper{
+	position: absolute;
+	overflow: hidden;
+	top: 270px;
+	left: 250px;
+	margin: 0 3em;
+	z-index: 10;
+	width: 10em;
+	height: 8.66em;
+	transform: rotate(-30deg) skewX(30deg);
+  }
+  .torch_upper::before {
+	display: block;
+	background: linear-gradient(to left,#c0c0c0,#c9c9c9,#a9a9a9,#555);
+	content: '';
+	width: inherit; height: 50%;
+	transform: skewX(-30deg) rotate(-60deg) translate(-1.25em);
+  }
+.button{
+	position: relative;
+	top: 18%;
+	left: 30%;
+	border: 5px solid #444;
+	height: 30px;
+	cursor: pointer;
+	padding: 5px;
+	width: 80px;
+	border-radius: 50px;
+}
+#button_circle{
+	position: relative;
+	height: 30px;
+	width: 30px;
+	box-shadow: 0 0 15px 0px #000;
+	border-radius: 80px;
+	background: #444;
+}
