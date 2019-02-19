@@ -1,0 +1,195 @@
+.hi{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to bottom left,#320989,#328982);
+	font-size: 100px;
+	text-transform: uppercase;
+	color: crimson;
+}
+.kj{
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	transition: 0.5s;
+	left: 0;
+	color: white;
+	font-size: 80px;
+	z-index: 0;
+}
+.jadu1{
+	animation: jad1 0.5s ease-out forwards;
+}
+@keyframes jad1{
+	100%{
+		opacity: 1;
+		left: 200px;
+	}
+}
+.jadu2{
+	animation: jad2 0.5s ease-out forwards;
+	animation-delay: 0.1s;
+}
+@keyframes jad2{
+	100%{
+		opacity: 1;
+		top: 62px;
+		left: 190px;
+	}
+}
+.jadu3{
+	animation: jad3 0.5s ease-out forwards;
+	animation-delay: 0.2s;
+}
+@keyframes jad3{
+	100%{
+		opacity: 1;
+		left: 162px;
+		top:118px;
+	}
+}
+.jadu4{
+	animation: jad4 0.5s ease-out forwards;
+	animation-delay: 0.3s;
+}
+@keyframes jad4{
+	100%{
+		opacity: 1;
+		left: 118px;
+		top: 162px;
+	}
+}
+.jadu5{
+	animation: jad5 0.5s ease-out forwards;
+	animation-delay: 0.4s;
+}
+@keyframes jad5{
+	100%{
+		opacity: 1;
+		top: 190px;
+		left: 62px;
+	}
+}
+.jadu6{
+	animation: jad6 0.5s ease-out forwards;
+	animation-delay: 0.5s;
+}
+@keyframes jad6{
+	100%{
+		opacity: 1;
+		top: 200px;
+	}
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.menu{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-family: arial black;
+	border-radius: 100px;
+	font-size: 40px;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	background: black;
+	cursor: pointer;
+	z-index: 1;
+	color:yellow;
+
+}
+.menu:hover{
+	transition: 0.5s;
+	color: red;
+}
+.rev1{
+	animation: re1 0.5s ease-in forwards;
+	animation-delay: 0;opacity: 1;
+	top: 0;
+	left: 200px;
+}
+@keyframes re1{
+	100%{
+		opacity: 0;
+		top:0;
+		left: 0;
+	}
+}
+.rev2{
+	animation: re2 0.5s ease-in forwards;
+	animation-delay: 0.1s;
+	opacity: 1;
+	top: 62px;
+	left: 191px;
+}
+@keyframes re2{
+	100%{
+		opacity: 0;
+		top:0;
+		left: 0;
+	}
+}
+.rev3{
+	animation: re3 0.5s ease-in forwards;
+	animation-delay: 0.2s;
+	opacity: 1;
+	top: 118px;
+	left: 162px;
+}
+@keyframes re3{
+	100%{
+		opacity: 0;
+		top:0;
+		left: 0;
+	}
+}
+.rev4{
+	animation: re4 0.5s ease-in forwards;
+	animation-delay: 0.3s;
+	opacity: 1;
+	top: 162px;
+	left: 118px;
+}
+@keyframes re4{
+	100%{
+		opacity: 0;
+		top:0;
+		left: 0;
+	}
+}
+.rev5{
+	animation: re5 0.5s ease-in forwards;
+	animation-delay: 0.4s;
+		opacity: 1;
+		top: 190px;
+		left: 62px;
+}
+@keyframes re5{
+	100%{
+		opacity: 0;
+		top:0;
+		left: 0;
+	}
+}
+.rev6{
+	animation: re6 0.5s ease-in forwards;
+	animation-delay: 0.5s;
+	opacity: 1;
+	top: 200px;
+	left: 0;
+}
+@keyframes re6{
+	100%{
+		opacity: 0;
+		top:0;
+		left: 0;
+	}
+}
