@@ -1,0 +1,19 @@
+.block{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background: #5fc3ca;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+.move{
+    animation: anim 1s linear infinite alternate;
+}
+@keyframes anim{
+    0%{top:0;left:0;background: #348297;}
+    25%{top:200px;left:0;background: #1a677c;}
+    50%{top:200px;left:200px;background: #044d61;}
+    75%{top:0;left:200px;background: #3f646d;}
+    100%{top:0;left:0;background: #348297;}
+}
