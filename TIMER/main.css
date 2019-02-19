@@ -17,3 +17,14 @@
     75%{top:0;left:200px;background: #3f646d;}
     100%{top:0;left:0;background: #348297;}
 }
+.content{
+    position: relative;
+    top: 210px;
+}
+.counter{
+    font-size: 20px;
+    color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 5px;
+}
