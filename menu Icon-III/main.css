@@ -31,3 +31,22 @@
 	transform: rotate(0deg);
 	transition: .25s ease-in-out;
   }
+  
+  #nav-icon1 span:nth-child(1) {
+	top: 0px;
+  }
+  
+  #nav-icon1 span:nth-child(2) {
+	top: 40px;
+  }
+  
+  #nav-icon1 span:nth-child(3) {
+	top: 80px;
+  }
+  
+  #nav-icon1.open span:nth-child(1) {
+	top: 40px;
+	transform: rotate(135deg);
+	box-shadow: 1px 1px 20px 2px #000;
+  }
+  
