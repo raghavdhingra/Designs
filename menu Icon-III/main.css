@@ -1,0 +1,33 @@
+.back{
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(35deg, #08f3ff, #0a4dff);
+  }
+  #nav-icon1{
+	width: 60px;
+	height: 45px;
+	top: 43%;
+	left: 43%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	transform: rotate(0deg);
+	transition: .5s ease-in-out;
+	cursor: pointer;
+  }
+  
+  #nav-icon1 span {
+	display: block;
+	position: absolute;
+	height: 20px;
+	width: 150px;
+	background: #fa0000;
+	border-radius: 9px;
+	opacity: 1;
+	left: 0;
+	box-shadow: 3px 3px 10px 2px #000;
+	transform: rotate(0deg);
+	transition: .25s ease-in-out;
+  }
