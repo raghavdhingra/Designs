@@ -50,3 +50,30 @@
 	box-shadow: 1px 1px 20px 2px #000;
   }
   
+  #nav-icon1.open span:nth-child(2) {
+	animation: anim 0.3s linear forwards;
+  }
+  #nav-icon1.close span:nth-child(2) {
+	animation: animRev 0.3s linear forwards;
+  }
+  @keyframes anim{
+	0%{
+	  transform: scale(1);
+	}
+	100%{
+	  transform: scale(0);
+	}
+  }
+  @keyframes animRev{
+	0%{
+	  transform: scale(0);
+	}
+	100%{
+	  transform: scale(1);
+	}
+  }
+  #nav-icon1.open span:nth-child(3) {
+	top: 40px;
+	transform: rotate(-135deg);
+	box-shadow: 1px 1px 30px 1px #000;
+  }
