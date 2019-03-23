@@ -1,3 +1,2 @@
-# Gates_2k19
-This is the official website of gates
-https://raghavdhingra.github.io/Gates_2k19/
+# Animated Loader For Website
+It's an awesome animation for a website during its loading time
