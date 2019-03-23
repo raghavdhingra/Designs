@@ -1,0 +1,308 @@
+@font-face {
+    font-family: Gotham_Bold;
+    src: url(../assets/fonts/GothamBold.otf);
+}
+@font-face {
+    font-family: Gotham_Light;
+    src: url(../assets/fonts/GothamLight.otf);
+}
+body{
+    background-image: url(../assets/images/gates_web_background.png);
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;    
+}
+.flex_EventContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ChildContainer{
+    /* background-color: black; */
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.TechEvent,.CulturalEvent,.Man_LibEvent,.Misc{
+    position: relative;
+    bottom: -340px;
+    width: 240px;
+    height: 60%;
+    opacity: 0;
+    background-color: aqua;
+    border-radius: 17px;
+    margin: 22px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.68s;  
+}
+.Event_img{
+    position: relative;
+    top:-80px;
+    width: 120%;
+    height: 100%;
+}
+.Event_img_Manage{
+    position: relative;
+    top:-2px;
+    left:-55px;
+    width: 210%;
+    height: 80%;
+}
+.Event_img_Misc{
+    position: relative;
+    top:-2px;
+    left:-100px;
+    width: 210%;
+    height: 80%;
+}
+.Gradient_TechEvent{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background: rgb(53,51,134);
+    background: linear-gradient(0deg, rgba(53,51,134,1) 35%, rgba(53,51,134,0) 81%);
+    width: 100%;
+    height: 80%;
+}
+.Gradient_Cultural{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background: rgb(246,99,128);
+background: linear-gradient(0deg, rgba(246,99,128,1) 35%, rgba(53,51,134,0) 81%);
+    width: 100%;
+    height: 80%;
+}
+.Gradient_LibEvent{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background: rgb(245,51,51);
+background: linear-gradient(0deg, rgba(245,51,51,1) 35%, rgba(53,51,134,0) 81%);
+    width: 100%;
+    height: 80%;
+}
+.Gradient_Misc{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background: rgb(0,183,197);
+background: linear-gradient(0deg, rgba(0,183,197,1) 35%, rgba(53,51,134,0) 81%);
+    width: 100%;
+    height: 80%;
+}
+h2{
+    position: relative;
+    font-family:Gotham_Bold;
+    color: white;
+    top:260px;
+    padding-left: 22px;
+}
+h3{
+    position: relative;
+    font-family:Gotham_Light;
+    color: white;
+    top:240px;
+    font-size: 22px;
+    padding-left: 22px;
+    font-weight: lighter;
+}
+.Main_Nav{
+    position: absolute;
+    top:-50px;
+    left:0;
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    animation: Main_anim;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 1.6s;
+    animation-timing-function: cubic-bezier(0, 1.1, 0.96, 0.99);
+}
+.Brand_Logo{
+    padding-top: 45px;
+    width: 20%;
+    height: 90%;
+    padding-left: 180px;
+}
+.navbar_element{
+    padding-left: 240px;
+    font-family: Gotham_Light;
+    text-transform: capitalize;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+.elmt{
+    margin-left: 40px;
+    cursor: pointer;
+}
+.DownArrowCont{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: -30px;
+    width: 100%;
+    height: 25px;
+    animation: DownArrow_anim;
+    animation-delay: 3.6s;
+    animation-fill-mode: forwards;
+    animation-duration: .8s;
+    /* background-color: green; */
+}
+
+/*  */
+.PreloaderCover{
+    background-color: white;
+    position: fixed;   
+    top:0;
+    left:0; 
+    width:100%;
+    height: 100%;
+    z-index: 3;
+    /* transition: 2s ease; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Move_Cover;
+    animation-fill-mode: forwards;
+    animation-duration: 1.4s;
+    animation-delay: 2.6s;
+    animation-timing-function: cubic-bezier(0, 1.1, 0.96, 0.99);
+}
+
+/* .Loading_txt{
+    padding-left: 0;
+    font-family: Gotham_Light;
+    color: black;
+    z-index: 1;
+}
+.flex_Class_Preloader{
+    position: fixed;
+    top:230px;
+} */
+.gif_Preloader{
+    width: 7.8%;
+    height: 16%;
+}
+.CoverTogif{
+    position: fixed;
+    width: 25%;
+    height: 70%;
+    background-color: white;
+    right: 0;
+    animation: Move_CoverTogif;
+    animation-fill-mode: forwards;
+    animation-duration: .7s;
+    animation-delay: 2s;
+}
+@keyframes Move_CoverTogif{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-530px);
+    }
+}
+@keyframes Move_Cover{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-1540px);
+    }
+}
+/*  */
+.TechEvent:hover,.CulturalEvent:hover,.Man_LibEvent:hover,.Misc:hover{
+    width: 260px;
+    height: 65%;
+}
+
+
+
+.TechEvent{
+    animation: TechEvent;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    animation-duration: .8s;
+    animation-timing-function: cubic-bezier(0, 1.1, 0.96, 0.99);
+}
+.CulturalEvent{
+    animation: CultureEvents;
+    animation-delay: 2.9s;
+    animation-fill-mode: forwards;
+    animation-duration: .8s;
+    animation-timing-function: cubic-bezier(0, 1.1, 0.96, 0.99);
+}
+.Man_LibEvent{
+    animation: Man_LibEvent;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: .8s;
+    animation-timing-function: cubic-bezier(0, 1.1, 0.96, 0.99);
+}
+.Misc{
+    animation: Misc;
+    animation-delay: 3.1s;
+    animation-fill-mode: forwards;
+    animation-duration: .8s;
+    animation-timing-function: cubic-bezier(0, 1.1, 0.96, 0.99);
+}
+@keyframes TechEvent{
+    0%{
+        transform: translateY(0px);
+    }100%{
+        transform: translateY(-290px);
+        opacity: 1;
+    }
+}
+@keyframes CultureEvents{
+    0%{
+        transform: translateY(0px);
+    }100%{
+        opacity: 1;
+        transform: translateY(-290px);
+    }
+}
+@keyframes Man_LibEvent{
+    0%{
+        transform: translateY(0px);
+    }100%{
+        opacity: 1;
+        transform: translateY(-290px);
+    }
+}
+@keyframes Misc{
+    0%{
+        transform: translateY(0px);
+    }100%{
+        opacity: 1;
+        transform: translateY(-290px);
+    }
+}
+@keyframes DownArrow_anim{
+    0%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(-60px);
+    }
+}
+@keyframes Main_anim{
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px);
+        opacity: 1;
+    }
+}
