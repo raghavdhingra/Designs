@@ -339,3 +339,32 @@ ul {
     	width: 30px;
 	}
 }
+@-moz-keyframes hoho {
+	0% {
+    	background-color: #ecf0f1;
+    	box-shadow: 0px 20px 0 0 #111;
+			height: 40px;
+    	width: 60px;
+	}
+
+	60%  {
+    	background-color: #ecf0f1;
+    	box-shadow: 0px 60px 0 0 #111;
+			height: 60px;
+    	width: 30px;
+	}
+
+	80%  {
+    	background-color: #ecf0f1;
+    	box-shadow: 0px 60px 0 0 #111;
+			height: 50px;
+    	width: 40px;
+	}
+
+	100%  {
+    	background-color: #ecf0f1;
+    	box-shadow: 0px 60px 0 0 #111;
+			height: 60px;
+    	width: 30px;
+	}
+}
