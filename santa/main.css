@@ -251,3 +251,38 @@ ul {
 	-moz-animation: txtHohohoMiddle 1.6s ease-in-out infinite alternate;
 	animation: txtHohohoMiddle 1.6s ease-in-out infinite alternate;
 }
+
+/**************
+** Animações **
+***************/
+
+/*FadeIn e fadeOut para textos Hohoho*/
+@keyframes txtHohoho {
+	from {opacity: .2}
+	to {opacity: 1}
+}
+
+/*Texto Ho do meio em ambos os lados*/
+@-webkit-keyframes txtHohohoMiddle {
+	from {-webkit-transform: scale(1.5);}
+	to {-webkit-transform: scale(1);}
+}
+@-moz-keyframes txtHohohoMiddle {
+	from {-moz-transform: scale(1.5);}
+	to {-moz-transform: scale(1);}
+}
+@keyframes txtHohohoMiddle {
+	from {transform: scale(1.5);}
+	to {transform: scale(1);}
+}
+
+/*Hohoho do lado esquerdo*/
+@-webkit-keyframes txtHohohoLeft {
+	to {-webkit-transform: scale(1.5);}
+}
+@-moz-keyframes txtHohohoLeft {
+	to {-moz-transform: scale(1.5);}
+}
+@keyframes txtHohohoLeft {
+	to {transform: scale(1.5);}
+}
