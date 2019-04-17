@@ -181,3 +181,20 @@ ul {
     -moz-animation: animaBarba 1.6s ease-in-out infinite alternate;
     animation: animaBarba 1.6s ease-in-out infinite alternate;
 }
+
+.santaclaus .face > .barba > .boca {
+    height: 50px;
+    left: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    width: 60px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-animation: hoho 1.6s ease-in-out infinite alternate;
+    -moz-animation: hoho 1.6s ease-in-out infinite alternate;
+    animation: hoho 1.6s ease-in-out infinite alternate;
+}
