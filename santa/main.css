@@ -13,7 +13,6 @@ ul {
 }
  ul li {
     display: inline-block;
-    float: left;
  }
 
 .santaclaus {
@@ -133,7 +132,6 @@ ul {
 	background-color: #111;
 	content: " ";
 	display: inline-block;
-	float: left;
 	height: 20px;
 	width: 20px;
 
@@ -217,7 +215,6 @@ ul {
     line-height: 1.4em;
 }
 
-/*Texto Hohoho do lado direito*/
 .hohoho:last-of-type h2 {
     margin: 0 10px 30px;
     text-align: right;
@@ -231,7 +228,6 @@ ul {
 	animation: txtHohohoRight 1.6s ease-in-out infinite alternate;
 }
 
-/*Texto Hohoho do lado esquerdo*/
 .hohoho:first-of-type h2 {
     margin: 0 50px 30px 0;
     text-align: left;
@@ -245,24 +241,17 @@ ul {
 	animation: txtHohohoLeft 1.6s ease-in-out infinite alternate;
 }
 
-/*Texto Ho do meio em ambos os lados*/
 .hohoho h2:nth-child(2) {
 	-webkit-animation: txtHohohoMiddle 1.6s ease-in-out infinite alternate;
 	-moz-animation: txtHohohoMiddle 1.6s ease-in-out infinite alternate;
 	animation: txtHohohoMiddle 1.6s ease-in-out infinite alternate;
 }
 
-/**************
-** Animações **
-***************/
-
-/*FadeIn e fadeOut para textos Hohoho*/
 @keyframes txtHohoho {
 	from {opacity: .2}
 	to {opacity: 1}
 }
 
-/*Texto Ho do meio em ambos os lados*/
 @-webkit-keyframes txtHohohoMiddle {
 	from {-webkit-transform: scale(1.5);}
 	to {-webkit-transform: scale(1);}
@@ -276,7 +265,6 @@ ul {
 	to {transform: scale(1);}
 }
 
-/*Hohoho do lado esquerdo*/
 @-webkit-keyframes txtHohohoLeft {
 	to {-webkit-transform: scale(1.5);}
 }
@@ -287,7 +275,6 @@ ul {
 	to {transform: scale(1.5);}
 }
 
-/*Hohoho do lado direito*/
 @-webkit-keyframes txtHohohoRight {
 	to {-webkit-transform: scale(1.5);}
 }
@@ -298,7 +285,6 @@ ul {
 	to {transform: scale(1.5);}
 }
 
-/*Movimenta barba*/
 @-webkit-keyframes animaBarba {
 	to {-webkit-transform: rotate(-10deg);}
 }
@@ -309,7 +295,6 @@ ul {
 	to {transform: rotate(-10deg);}
 }
 
-/*Hoho no movimento da boca*/
 @-webkit-keyframes hoho {
 	0% {
     	background-color: #ecf0f1;
