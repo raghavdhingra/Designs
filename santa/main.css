@@ -66,3 +66,29 @@ ul {
 	content: " ";
 	display: block;
 }
+
+.santaclaus .chapeu::after {
+	box-shadow: 0px -15px 40px -5px rgba(1,1,1,0.4);
+    height: 80px;
+    margin-left: -15px;
+    position: relative;
+    width: 340px;
+
+    -webkit-border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    border-radius: 0.8em;
+}
+
+.santaclaus .chapeu::before {
+	box-shadow: 20px 20px 40px -5px rgba(1,1,1,0.3);
+    height: 80px;
+    left: -120px;
+    position: absolute;
+    top: 80px;
+    width: 80px;
+    z-index: 111;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
