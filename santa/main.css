@@ -198,3 +198,21 @@ ul {
     -moz-animation: hoho 1.6s ease-in-out infinite alternate;
     animation: hoho 1.6s ease-in-out infinite alternate;
 }
+
+.hohoho {
+    height: 0;
+    padding-top: 200px;
+    width: 150px;
+
+    -webkit-animation: txtHohoho 1.6s ease-in-out infinite alternate;
+    -moz-animation: txtHohoho 1.6s ease-in-out infinite alternate;
+    animation: txtHohoho 1.6s ease-in-out infinite alternate;
+}
+
+.hohoho h2::before {
+	text-shadow: 0px 10px 20px rgba(1,1,1,0.4);
+	color: #fff;
+	content: "HO";
+    font-size: 62px;
+    line-height: 1.4em;
+}
