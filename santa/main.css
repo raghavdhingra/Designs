@@ -1,0 +1,35 @@
+body {
+	background-color: rgba(211, 47, 47, 0.65);
+	color: #fff;
+	text-align: center;
+}
+
+ul {
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0;
+}
+ ul li {
+    display: inline-block;
+    float: left;
+ }
+
+.santaclaus {
+    display: block;
+	margin: 0 auto;
+    max-width: 500px;
+}
+
+.santaclaus > div {
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.santaclaus .chapeu {
+    display: block;
+    position: relative;
+    width: 310px;
+    z-index: 99;
+}
