@@ -286,3 +286,56 @@ ul {
 @keyframes txtHohohoLeft {
 	to {transform: scale(1.5);}
 }
+
+/*Hohoho do lado direito*/
+@-webkit-keyframes txtHohohoRight {
+	to {-webkit-transform: scale(1.5);}
+}
+@-moz-keyframes txtHohohoRight {
+	to {-moz-transform: scale(1.5);}
+}
+@keyframes txtHohohoRight {
+	to {transform: scale(1.5);}
+}
+
+/*Movimenta barba*/
+@-webkit-keyframes animaBarba {
+	to {-webkit-transform: rotate(-10deg);}
+}
+@-moz-keyframes animaBarba {
+	to {-moz-transform: rotate(-10deg);}
+}
+@keyframes animaBarba {
+	to {transform: rotate(-10deg);}
+}
+
+/*Hoho no movimento da boca*/
+@-webkit-keyframes hoho {
+	0% {
+    	background-color: #ecf0f1;
+    	box-shadow: 0px 20px 0 0 #111;
+			height: 40px;
+    	width: 60px;
+	}
+
+	60%  {
+    	background-color: #ecf0f1;
+    	box-shadow: 0px 60px 0 0 #111;
+			height: 60px;
+    	width: 30px;
+	}
+
+	80%  {
+    	background-color: #ecf0f1;
+    	box-shadow: 0px 60px 0 0 #111;
+			height: 50px;
+    	width: 40px;
+	}
+
+	100%  {
+    	background-color: #ecf0f1;
+    	box-shadow: 0px 60px 0 0 #111;
+			height: 60px;
+    	width: 30px;
+	}
+}
