@@ -92,3 +92,31 @@ ul {
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
+
+.santaclaus .face {
+    background-color: #ffccbc;
+    box-shadow: 0px 0px 30px 5px rgba(1,1,1,0.3);
+    content: " ";
+    display: block;
+    height: 130px;
+    position: relative;
+    top: -10px;
+    width: 300px;
+}
+
+.santaclaus > .orelhas {
+    background-color: #eea2ad;
+    box-shadow: 0px 0px 30px 5px rgba(1,1,1,0.3);
+    display: block;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    top: -125px;
+    width: 330px;
+    z-index: -1;
+
+    -webkit-border-radius: 1em 1em 2em 2em;
+    -moz-border-radius: 1em 1em 2em 2em;
+    border-radius: 1em 1em 2em 2em;
+}
+
