@@ -216,3 +216,17 @@ ul {
     font-size: 62px;
     line-height: 1.4em;
 }
+
+/*Texto Hohoho do lado direito*/
+.hohoho:last-of-type h2 {
+    margin: 0 10px 30px;
+    text-align: right;
+}
+
+.hohoho:last-of-type h2:nth-child(2) {margin-right: -50px;}
+.hohoho:last-of-type h2:first-child,
+.hohoho:last-of-type h2:last-child {
+	-webkit-animation: txtHohohoRight 1.6s ease-in-out infinite alternate;
+	-moz-animation: txtHohohoRight 1.6s ease-in-out infinite alternate;
+	animation: txtHohohoRight 1.6s ease-in-out infinite alternate;
+}
