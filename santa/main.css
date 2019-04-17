@@ -33,3 +33,36 @@ ul {
     width: 310px;
     z-index: 99;
 }
+
+.santaclaus .chapeu .cone-1 {
+    border-left: 50px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 70px solid #D32F2F;
+}
+
+.santaclaus .chapeu .cone-2 {
+    background-color:  #D32F2F;
+    border-top: 0px solid transparent;
+    border-right: 340px solid #D32F2F;
+    border-bottom: 100px solid transparent;
+    border-color: transparent;
+    box-shadow: -25px 15px 30px -5px rgba(1,1,1,0.3);
+    position: relative;
+    left: -56px;
+    top: 49px;
+
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+
+    -webkit-border-radius: 30% 100% 0 100%;
+    -moz-border-radius: 30% 100% 0 100%;
+    border-radius: 30% 100% 0 100%;
+}
+
+.santaclaus .chapeu::after,
+.santaclaus .chapeu::before {
+	background-color: #fff;
+	content: " ";
+	display: block;
+}
