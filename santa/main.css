@@ -230,3 +230,24 @@ ul {
 	-moz-animation: txtHohohoRight 1.6s ease-in-out infinite alternate;
 	animation: txtHohohoRight 1.6s ease-in-out infinite alternate;
 }
+
+/*Texto Hohoho do lado esquerdo*/
+.hohoho:first-of-type h2 {
+    margin: 0 50px 30px 0;
+    text-align: left;
+}
+
+.hohoho:first-of-type h2:nth-child(2) {margin-left: -60px;}
+.hohoho:first-of-type h2:first-child,
+.hohoho:first-of-type h2:last-child {
+	-webkit-animation: txtHohohoLeft 1.6s ease-in-out infinite alternate;
+	-moz-animation: txtHohohoLeft 1.6s ease-in-out infinite alternate;
+	animation: txtHohohoLeft 1.6s ease-in-out infinite alternate;
+}
+
+/*Texto Ho do meio em ambos os lados*/
+.hohoho h2:nth-child(2) {
+	-webkit-animation: txtHohohoMiddle 1.6s ease-in-out infinite alternate;
+	-moz-animation: txtHohohoMiddle 1.6s ease-in-out infinite alternate;
+	animation: txtHohohoMiddle 1.6s ease-in-out infinite alternate;
+}
