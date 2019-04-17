@@ -145,3 +145,39 @@ ul {
 .santaclaus .face > .eyes::after {
 	float: right;
 }
+
+.santaclaus .face > .nariz {
+	background-color: #EEA2AD;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	width: 70px;
+	z-index: 111;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.santaclaus .face > .barba {
+    background-color: #ecf0f1;
+    box-shadow: -10px 10px 10px -5px rgba(1,1,1,0.3);
+    height: 240px;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+    width: 340px;
+    left: -20px;
+
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+
+    -webkit-border-radius: 0% 100% 70% 100%;
+    -moz-border-radius: 0% 100% 70% 100%;
+    border-radius: 0% 100% 70% 100%;
+
+    -webkit-animation: animaBarba 1.6s ease-in-out infinite alternate;
+    -moz-animation: animaBarba 1.6s ease-in-out infinite alternate;
+    animation: animaBarba 1.6s ease-in-out infinite alternate;
+}
