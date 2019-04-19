@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+.cir1{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(35deg, #a87932, #f0ec0c);
+}
+.cir2{
+    height: 190px;
+    width: 190px;
+    background: #fff;
+}
