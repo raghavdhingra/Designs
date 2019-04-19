@@ -16,3 +16,17 @@
     width: 190px;
     background: #fff;
 }
+.cir-over{
+    height: 220px;
+    width: 220px;
+    background: #fff;
+    animation: anim 3s linear infinite alternate;
+}
+@keyframes anim{
+    0%{
+        transform: translate(-130%,-130%);
+    }
+    100%{   
+        transform: translate(30%,30%);
+    }
+}
