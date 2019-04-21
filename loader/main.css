@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rot 2s ease infinite forwards;
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
