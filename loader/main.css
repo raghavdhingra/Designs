@@ -45,3 +45,28 @@
     height: 100px;
     width: 200px;
 }
+.top{
+    left: -100%;
+    animation: right 5s linear infinite forwards;
+}
+.bottom{
+    left: 100%;
+    animation: left 5s linear infinite forwards;
+}
+@keyframes right{
+    5%{
+        left: -100%;
+    }
+    25%{
+        left: 0;
+    }
+    50%{
+        left: 0;
+    }
+    90%{
+        left: 100%;
+    }
+    100%{
+        left: 100%;
+    }
+}
