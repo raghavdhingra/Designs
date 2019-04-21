@@ -16,3 +16,15 @@
         transform: rotate(360deg);
     }
 }
+.circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+.outer{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(15deg, #342fa8,#66bfe2);
+}
