@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fish{
+    position: relative;
+    height: 10px;
+    width: 20px;
+    display: inline-block;
+    background-color: rgb(59, 173, 168);
+    border-radius: 50%;
+    z-index: 1;
+}
+.fish::before{
+    content: "";
+    position: relative;
+    display: inline-block;
+    height: 5px;
+    transform: translate(-40px,10%);
+    width: 10px;
+    border-radius: 50%;
+    background: green;
+}
+.anim-1{
+    animation: anim_1 5s infinite ease forwards;
+}
+@keyframes anim_1{
+    0% ,100%{
+        top: 00px;
+    }
+    80%{
+        top: 400px;
+    }
+}
+.anim-2{
+    animation: anim_2 5s infinite ease forwards;
+}
+@keyframes anim_2{
+    0% ,100%{
+        transform: translateY(000px);
+    }
+    80%{
+        transform: translateY(400px);
+    }
+}
