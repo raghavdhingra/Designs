@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fish{
+    position: relative;
+    height: 10px;
+    width: 20px;
+    display: inline-block;
+    background-color: rgb(59, 173, 168);
+    border-radius: 50%;
+    z-index: 1;
+}
+.red{
+    background: red;
+}
+.fish::before{
+    content: "";
+    position: relative;
+    display: inline-block;
+    height: 5px;
+    transform: translate(-40px,10%);
+    width: 10px;
+    border-radius: 50%;
+    background: green;
+}
+.anim-1{
+    animation: anim_1 1s infinite ease forwards;
+}
+@keyframes anim_1 {
+    0% ,100%{
+        top: -100px;
+    }
+    50%{
+        top: 100px;
+    }
+}
+.anim-2{
+    animation: anim_2 1s infinite ease forwards;
+}
+@keyframes anim_2 {
+    0% ,100%{
+        transform: translateY(-100px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+}
+button{
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 20px;
+     cursor: pointer;
+}
