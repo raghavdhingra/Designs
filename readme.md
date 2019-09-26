@@ -1,4 +1,4 @@
-# Animated Design
+# My Designs:
 This repo is of my designs based on some of the concepts.<br>
 In this, I have made different designs for various components of the website.
 <br>
